@@ -1,0 +1,5 @@
+package com.fit.se.dao.impl;
+
+public class GiangVienDAOImpl {
+
+}

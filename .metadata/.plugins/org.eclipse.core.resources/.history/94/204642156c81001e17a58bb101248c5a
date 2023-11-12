@@ -1,0 +1,14 @@
+package com.fit.se.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "GiangVien")
+public class GiangVien {
+	private int maGV;
+	private String tenGV;
+	private String linhVucNghienCuu;
+	private String dienThoai;
+	private String email;
+}

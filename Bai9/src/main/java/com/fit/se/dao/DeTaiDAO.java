@@ -1,0 +1,15 @@
+package com.fit.se.dao;
+
+import java.util.List;
+
+import com.fit.se.entity.DeTai;
+
+public interface DeTaiDAO {
+	List<DeTai> getAll();
+	
+	DeTai getDetail(int id);
+	
+	void save(DeTai deTai);
+	
+	void delete(int id);
+}

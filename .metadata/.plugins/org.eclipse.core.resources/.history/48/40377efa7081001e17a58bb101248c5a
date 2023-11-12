@@ -1,0 +1,17 @@
+package com.fit.se.dao.copy;
+
+import java.util.List;
+
+import com.fit.se.entity.GiangVien;
+
+public interface GiangVienDAO {
+	List<GiangVien> getAll();
+	
+	GiangVien getDetail(int id);
+	
+	void save(GiangVien giangVien);
+	
+	void update(int id, GiangVien giangVien);
+	
+	void delete(int id);
+}

@@ -1,0 +1,15 @@
+package com.fit.se.entity;
+
+import javax.persistence.Entity;
+import javax.persistence.Table;
+
+@Entity
+@Table(name = "DETAI")
+public class DeTai {
+	private int maDeTai;
+	private String tenDeTai;
+	private int nam;
+	private String moTaDeTai;
+	private String urlHinh;
+	private GiangVien giangVien;
+}
